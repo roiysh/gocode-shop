@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'Tour of Heros';
   displaystatus = true;
   onClick():void{
-     this.title = this.title?'Tour of Heros :)': 'Tour of Heros';
+     this.title = this.title=='Tour of Heros'?'Tour of Heros :)': 'Tour of Heros';
     console.log("Display");
   }
 }
